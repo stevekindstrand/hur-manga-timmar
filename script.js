@@ -2,9 +2,9 @@ let input = document.getElementById("input");
 let button = document.getElementById("button");
 let myDiv = document.getElementById("myDiv");
 
-button.addEventListener("click", function(){
-    let test = input.value * 365 * 24
-    myDiv.innerHTML = "<br>" + input.value + " år = " + test + " timmar"
+button.addEventListener("click", ()=>{
+    let test = input.value * 365 * 24;
+    myDiv.innerHTML = "<br>" + input.value + " år = " + test + " timmar";
 });
 
 // function hours(){
